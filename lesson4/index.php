@@ -2,5 +2,5 @@
 
 include 'autoload.php';
 
-$db = new MySQL();
-$db->getRecord()->getRecord();
+$db = new DataBase(new MySQL());
+echo $db->record;
